@@ -1,7 +1,9 @@
 html {
     font-size: 10px;
-    background: url("./img/back.jpg");
+    background: url("./img/drum.png");
     background-size: cover;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -54,3 +56,23 @@ kbd {
     -ms-transition: all 0.07s;
     -o-transition: all 0.07s;
 }
+
+.key5 { /* A */
+    position: relative;
+    top: 25rem;
+}
+.key1 { /* G */
+    position: relative;
+    top: -15rem;
+    left: 5rem;
+}
+.key2 { /* H */
+    position: relative;
+    top: 10rem;
+    right: 8rem;
+}
+/* .key6 {
+    position: relative;
+    top: 10rem;
+    right: 5rem;
+} */
